@@ -162,20 +162,29 @@
 // console.log(parseQueryString(url));
 
 //JS从文本框中取出值并在span中显示出来
-function getName(){
-	var boxEle=document.getElementById("field");
+// function getName(){
+// 	var boxEle=document.getElementById("field");
 	
-	var inputEle=boxEle.getElementsByTagName("input");
-	console.log(inputEle)
-	var inputValue=inputEle[0].value;
+// 	var inputEle=boxEle.getElementsByTagName("input");
+// 	console.log(inputEle)
+// 	var inputValue=inputEle[0].value;
 	
-	function showName(){
-		var red=document.getElementsByClassName("red")[0];
-		console.log(red)
-		red.innerHTML=inputValue;
-		console.log(inputValue)
-	}
-	return showName();
-}
+// 	function showName(){
+// 		var red=document.getElementsByClassName("red")[0];
+// 		console.log(red)
+// 		red.innerHTML=inputValue;
+// 		console.log(inputValue)
+// 	}
+// 	return showName();
+// }
 
-window.onload=getName();
+// window.onload=getName();
+window.onload=function(){
+	var box=document.getElementById('abox');
+	var oStyle=window.getComputedStyle(box, null);
+
+	box.onfocus=function(){
+		console.log(oStyle.width);
+		oStyle.width='300px';
+	}
+}
