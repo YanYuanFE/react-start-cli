@@ -1,0 +1,35 @@
+{
+  "name": "react-start-cli",
+  "version": "1.0.0",
+  "description": "react-start-ci",
+  "main": "index.js",
+  "bin": {
+    "react-start-cli": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YanYuanFE/react-start-cli.git"
+  },
+  "keywords": [
+    "react",
+    "cli"
+  ],
+  "author": "YanYuanFE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YanYuanFE/react-start-cli/issues"
+  },
+  "homepage": "https://github.com/YanYuanFE/react-start-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.16.0",
+    "download-git-repo": "^1.0.2",
+    "handlebars": "^4.0.11",
+    "inquirer": "^6.0.0",
+    "log-symbols": "^2.2.0",
+    "ora": "^3.0.0"
+  }
+}
