@@ -1,6 +1,6 @@
 {
   "name": "react-start-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react-start-ci",
   "main": "index.js",
   "bin": {
