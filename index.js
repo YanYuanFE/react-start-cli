@@ -42,6 +42,9 @@ program
 					console.log();
 					console.log('Inside that directory, you can run several commands:');
 					console.log();
+					console.log(chalk.cyan('npm install'));
+					console.log('Installing packages.');
+					console.log();
 					console.log(chalk.cyan('npm start'));
 					console.log('Starts the development server.');
 					console.log();
@@ -51,7 +54,7 @@ program
 					console.log('We suggest that you begin by typing:');
 					console.log();
 					console.log(chalk.cyan('  cd'), root);
-					console.log(chalk.cyan('npm start'));
+					console.log(chalk.cyan('npm install && npm start'));
 					console.log();
 					console.log('Happy hacking!');
 				}
